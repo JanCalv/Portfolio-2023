@@ -12,10 +12,12 @@ html {
 h2 {
     font-size: 36px;
     text-transform: uppercase;
+    color: #000!important;
 }
 
 h1,h3,h4,h5 {
     text-transform: uppercase;
+    color: #000!important;
 }
 
 p {
