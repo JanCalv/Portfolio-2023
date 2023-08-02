@@ -205,6 +205,11 @@ body {
     border-color: #000;
 }
 
+.card-body btn:active {
+    background-color: transparent!important;
+    color:#A57F3A!important;
+    border-color: #A57F3A;
+}
 .carousel {
     display: flex;
     flex-direction: row;
