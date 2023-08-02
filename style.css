@@ -206,12 +206,6 @@ body {
 }
 
 /* Carousel */
-.card-title {
-    color: #000!important;
-}
-.card-text {
-    color: #000!important;
-}
 .crsl-container {
     padding-top: 96px;
     background-color: #000;
@@ -290,13 +284,6 @@ body {
     color:inherit;
   }
   
-  @media (max-width:767px) {
-    .photo-gallery h2 {
-      margin-bottom:25px;
-      padding-top:96px;
-      font-size:24px;
-    }
-  }
   
   .photo-gallery .intro {
     font-size:16px;
@@ -362,6 +349,14 @@ body {
     }
     .about-image-col {
         padding-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .photo-gallery h2 {
+        margin-bottom:25px;
+        padding-top:96px;
+        font-size:24px;
     }
 }
 
