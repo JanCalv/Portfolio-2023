@@ -182,29 +182,6 @@ body {
     }
 }
 
-.btn-dark-v2 {
-    background-color: #A57F3A;
-    border: solid 2px #A57F3A;
-    color: #FFF!important;
-    font-weight: 400;
-    text-transform: uppercase;
-    border-radius: 0;
-    padding:20px 36px;
-    transition: 0.3s;
-
-    &:hover {
-        background-color: transparent;
-        color: #FFF;
-        border-color: #A57F3A;
-    }
-}
-
-.btn-dark-v2:hover {
-    .about-link-v2 {
-        color: #A57F3A!important;
-    }
-}
-
 /* Carousel */
 .crsl-container {
     padding-top: 96px;
