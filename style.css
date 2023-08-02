@@ -49,6 +49,16 @@ body {
     }
 }
 
+.bg-dark {
+    background-color: #000!important;
+    display: flex;
+    justify-content: center;
+}
+.nav-logo {
+    width: 50px;
+    height: 100%;
+}
+
 /* Header text */
 .header-text_container {
     color: #FFF;
@@ -107,6 +117,7 @@ body {
 .about-link {
     color: #A57F3A;
     text-decoration: none;
+    margin-right: 25px;
 }
 
 .about-link-v2 {
@@ -203,6 +214,7 @@ body {
 
 .card {
     border-color: #000;
+    height: 500px;
 }
 
 .card-body .btn:active {
@@ -240,6 +252,54 @@ body {
     }
 }
 
+/* awards */
+.intro {
+    width: 100%;
+}
+.photo-gallery {
+    color:#000;
+    background-color:#fff;
+  }
+  
+  .photo-gallery p {
+    color:#000;
+  }
+  
+  .photo-gallery h2 {
+    font-weight:bold;
+    margin-bottom:25px;
+    padding-top:96px;
+    color:inherit;
+  }
+  
+  @media (max-width:767px) {
+    .photo-gallery h2 {
+      margin-bottom:25px;
+      padding-top:96px;
+      font-size:24px;
+    }
+  }
+  
+  .photo-gallery .intro {
+    font-size:16px;
+    max-width:500px;
+    margin:0 auto 40px;
+  }
+  
+  .photo-gallery .intro p {
+    margin-bottom:0;
+  }
+  
+  .photo-gallery .photos {
+    padding-bottom:20px;
+  }
+  
+  .photo-gallery .item {
+    padding-bottom:30px;
+  }
+  
+  
+
 /* Footer */
 .btn-social {
     border-radius: 50px;
@@ -275,6 +335,10 @@ body {
     .header-title {
         font-size: 43px!important;
     }
+
+    .about-text-col {
+        padding-right: 0;
+    }
     .about-image-container {
         flex-direction: column;
     }
@@ -292,15 +356,26 @@ body {
 @media only screen and (max-width:595px) {
     .card {
         width: 400px!important;
+        height: 480px;
     }
 }
 
-@media only screen and (max-width:425px) {
+
+@media only screen and (max-width:491px) {
     .header-title {
         font-size: 33px!important;
     }
+    .btn-dark {
+        margin-bottom: 25px;
+    }
 }
 
+@media only screen and (max-width: 451px) {
+    .carousel-heading-col {
+        padding: 0 25px;
+        margin-bottom: 41px;
+    }
+}
 @media only screen and (max-width:375px) {
     .header-title {
         font-size: 25px!important;
