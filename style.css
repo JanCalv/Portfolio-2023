@@ -266,7 +266,7 @@ body {
 
 /* awards */
 .gallery .photo-gallery .container {
-    width: 100%;
+    width: 100%!important;
 }
 .intro {
     width: 100%;
