@@ -380,12 +380,21 @@ body {
     }
 }
 
+
+
 @media only screen and (max-width:491px) {
     .header-title {
         font-size: 33px!important;
     }
     .btn-dark {
         margin-bottom: 25px;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .card {
+        width: 300px!important;
+        height: 480px;
     }
 }
 
