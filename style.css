@@ -309,6 +309,10 @@ body {
   
 
 /* Footer */
+
+.footer-container .text-center .container {
+    width: 100%!important;
+}
 .btn-social {
     border-radius: 50px;
     border-color: #000;
