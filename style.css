@@ -194,7 +194,7 @@ body {
 
     &:hover {
         background-color: transparent;
-        color: #A57F3A;
+        color: #FFF;
         border-color: #A57F3A;
     }
 }
