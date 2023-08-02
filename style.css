@@ -386,6 +386,9 @@ body {
     .header-title {
         font-size: 33px!important;
     }
+    .about-section {
+        padding-bottom: 71px;
+    }
     .btn-dark {
         margin-bottom: 25px;
     }
