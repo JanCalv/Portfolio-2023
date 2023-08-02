@@ -51,6 +51,10 @@ body {
 
 .bg-dark {
     background-color: #000!important;
+
+}
+
+.navbar {
     display: flex;
     justify-content: center;
 }
