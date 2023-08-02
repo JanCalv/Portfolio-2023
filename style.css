@@ -12,12 +12,10 @@ html {
 h2 {
     font-size: 36px;
     text-transform: uppercase;
-    color: #000!important;
 }
 
 h1,h3,h4,h5 {
     text-transform: uppercase;
-    color: #000!important;
 }
 
 p {
@@ -104,6 +102,14 @@ body {
 .about-section {
     padding-top: 96px;
     padding-bottom: 96px;
+}
+
+.about-section h2 {
+    color: #000!important;
+}
+
+.about-section p {
+    color: #000!important;
 }
 
 .about-container {
@@ -200,6 +206,12 @@ body {
 }
 
 /* Carousel */
+.card-title {
+    color: #000!important;
+}
+.card-text {
+    color: #000!important;
+}
 .crsl-container {
     padding-top: 96px;
     background-color: #000;
