@@ -49,6 +49,9 @@ body {
     }
 }
 
+
+
+/** nav-bar **/
 .bg-dark {
     background-color: #000!important;
 
@@ -56,11 +59,18 @@ body {
 
 .navbar {
     display: flex;
-    justify-content: center;
+    padding-left: 14rem;
+    padding-right: 14rem;
 }
 .nav-logo {
     width: 50px;
     height: 100%;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+.navbar-nav {
+    gap: 50px;
 }
 
 /* Header text */
@@ -269,19 +279,11 @@ body {
     width: 100%!important;
 }
 
-.gallery .gd-proj-gallery .container {
-    width: 100%!important;
-}
 
 .intro {
     width: 100%;
 }
 
-.gd-proj-gallery {
-    padding-top: 96px; 
-    background-color: #F1F1F1!important;
-    padding-bottom: 96px;
-}
 
 .photo-gallery {
     color:#000;
@@ -298,12 +300,7 @@ body {
     padding-top:96px;
     color:inherit;
 }
-  
-  .gd-proj-gallery .intro {
-    font-size: 16px;
-    max-width: 500px;
-    margin: 0 auto 40px;
-  }
+
 
   .photo-gallery .intro {
     font-size:16px;
@@ -322,23 +319,14 @@ body {
   .photo-gallery .item {
     padding-bottom:30px;
   }
-
-  .gd-proj-gallery .item {
-    padding-bottom:30px;
-  }
   
 div.photo-gallery .row  {
     justify-content: center;
 }
 
-div.gd-proj-gallery .row {
-    justify-content: center; 
-}
-
 .img-fluid {
     max-width: 100%;
     height: 225px;
-    object-fit: cover;
 }
   
 
@@ -376,8 +364,82 @@ div.gd-proj-gallery .row {
     color: #000;
 }
 
+/* Graphic projects */
+.gd-gallery {
+    padding-top: 96px;
+    padding-bottom: 96px;
+    background: rgb(255,0,0);
+    background: linear-gradient(180deg, rgba(255,0,0,0) 65%, rgba(0,0,0,1) 100%),url("steve-johnson-YS0YJLU_h2k-unsplash.png");
+    background-attachment: fixed;
+}
+.gd-gallery-headings {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    color: #FFF;
+}
+.gd-gallery-headings h2 {
+    margin-bottom: 25px;
+}
+.container-lg {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.gd-gallery img {
+    max-width: 100%;
+}
+.gd-gallery img{
+	background: #fff;
+	padding: 15px;
+	width: 500px;
+	box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
+	cursor: pointer;
+    height: 400px;
+    object-fit: cover;
+}
+
+.row:nth-child(3) {
+    justify-content: center;
+}
+.row:nth-child(3) img {
+    object-position: top;
+}
+#gallery-popup .modal-img{
+	width: 100%;
+}
+
+
+/* MOBILE ADJUSTMENTS */
+
+
+@media (min-width: 1400px) {
+    .container-lg {
+        max-width: 1236px;
+    }
+}
 
 @media only screen and (max-width:768px) {
+
+    .row:nth-child(3) img {
+        width: 500px!important;
+    }
+
+    .show {
+        margin-top: 15px;
+    }
+    .navbar-nav {
+        gap: 15px;
+    }
+    .navbar {
+        display: flex;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    
     .header-title {
         font-size: 43px!important;
     }
@@ -392,15 +454,14 @@ div.gd-proj-gallery .row {
         padding-bottom: 50px;
     }
 
+    .gd-gallery img {
+        width: 100%;
+    }
+
     .img-fluid {
         max-width: 100%;
         height: auto;
         object-fit: contain;
-    }
-
-    .gd-proj-gallery {
-        padding-top: 0;
-        padding-bottom: 64px;
     }
 }
 
@@ -411,11 +472,6 @@ div.gd-proj-gallery .row {
         font-size:24px;
     }
 
-    .gd-proj-gallery h2 {
-        margin-bottom:25px;
-        padding-top:96px;
-        font-size:24px;
-    }
 }
 
 @media only screen and (max-width:606px) {
