@@ -366,11 +366,10 @@ div.photo-gallery .row  {
 
 /* Graphic projects */
 .gd-gallery {
-    padding-top: 96px;
+    padding-top: 0;
     padding-bottom: 96px;
     background: rgb(255,0,0);
-    background: linear-gradient(180deg, rgba(255,0,0,0) 65%, rgba(0,0,0,1) 100%),url("steve-johnson-YS0YJLU_h2k-unsplash.png");
-    background-attachment: fixed;
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,212,255,0) 100%),url("gd-bg.jpg");
 }
 .gd-gallery-headings {
     display: flex;
