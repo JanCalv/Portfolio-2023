@@ -402,6 +402,34 @@ div.photo-gallery .row  {
     object-fit: cover;
 }
 
+.btn {
+    font-weight: 500;
+}
+
+.btn-light {
+    background-color: #A57F3A;
+    border: solid 2px #A57F3A;
+    color: #FFF;
+    text-transform: uppercase;
+    border-radius: 0;
+    padding: 20px 36px;
+    transition: 0.3s;
+
+    &:hover {
+        background-color: #FFF;
+        border-color: #FFF;
+        color: #A57F3A;
+    }
+}
+.btn-light:active {
+    color: #A57F3A!important;
+    background-color: #FFF!important;
+    border-color: #FFF!important;
+}
+.btn-light:focus {
+    box-shadow: none!important;
+}
+
 .row:nth-child(3) {
     justify-content: center;
 }
