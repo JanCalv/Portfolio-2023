@@ -62,6 +62,7 @@ body {
     display: flex;
     padding-left: 14rem;
     padding-right: 14rem;
+    text-transform: uppercase;
 }
 .nav-logo {
     width: 50px;
