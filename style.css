@@ -65,8 +65,12 @@ body {
     text-transform: uppercase;
 }
 .nav-logo {
-    width: 50px;
+    width: 150px;
     height: 100%;
+}
+.navbar-brand {
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 .navbar-collapse {
     justify-content: flex-end;
@@ -452,6 +456,14 @@ div.photo-gallery .row  {
 }
 
 @media only screen and (max-width:768px) {
+    .crsl-container-2 {
+        margin-top: -1px;
+    }
+    .gd-gallery {
+        background-repeat: round;
+        margin-top: -36px;
+    }
+
     .gd-gallery-headings {
         text-align: center;
         padding: 0 40px;
