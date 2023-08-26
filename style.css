@@ -8,6 +8,7 @@ html {
     scroll-behavior: smooth!important;
     scroll-padding: 10rem;
     transition: all .9 ease;
+    overflow-x: hidden;
 }
 
 h2 {
@@ -24,6 +25,7 @@ p {
 }
 
 body {
+    overflow-x: hidden;
     box-sizing: border-box;
     font-family: 'Montserrat';
 }
